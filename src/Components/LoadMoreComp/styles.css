@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  background-color: bisque;
 }
 
 .product {
@@ -16,9 +17,17 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background-color: black;
 }
 
 .product img {
   width: 420px;
   height: 420px;
+}
+
+.product span {
+  display: flex;
+  align-items: center;
+  color: cadetblue;
+  margin: auto;
 }

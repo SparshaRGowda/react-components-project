@@ -43,6 +43,7 @@ export default function LoadMore() {
             // creating a unique id for each product to avoid duplication warning ${item.id}-${index}
             <div className="product" key={`${item.id}-${index}`}>
               <img src={item.thumbnail} alt={item.title} />
+              <span>{item.title}</span>
             </div>
           ))}
       </div>
