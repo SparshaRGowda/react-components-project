@@ -9,7 +9,12 @@ export default function MenuItem({ item }) {
   function handleToggle(currentLabel) {
     setDisplay({ ...display, [currentLabel]: !display[currentLabel] });
   }
-  console.log(display);
+  //easy version of the above function
+  //const copyDisplay = [...display];
+  //if(currentLabel in copyDisplay) copyDisplay[currentLabel] = !copyDisplay[currentLabel]
+  //else copyDisplay[currentlabel] = true
+  //setDisplay(copyDisplay)
+
   return (
     <li
       style={{
