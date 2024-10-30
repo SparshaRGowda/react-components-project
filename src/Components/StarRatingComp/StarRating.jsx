@@ -16,7 +16,7 @@ export default function StarRating({ noOfStars }) {
   function handleMouseLeave() {
     setHover(rating);
   }
-
+  //npm install react-icons --save
   return (
     <div className="container">
       {[...Array(noOfStars)].map((star, index) => {
