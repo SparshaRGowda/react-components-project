@@ -7,7 +7,6 @@ export default function LightDarkMode() {
   return (
     <div className="light-dark-mode" data-theme={theme}>
       <div className="container">
-        {" "}
         <p>hello world!!!</p>
         <button
           onClick={() =>
