@@ -5,19 +5,22 @@
 // import LoadMore from "./Components/LoadMoreComp/LoadMore";
 // import NavigationMenu from "./Components/NavigationMenuComp/NavigationMenu";
 // import { menus } from "./Components/NavigationMenuComp/data";
-import QrGenerator from "./Components/QRGeneratorComp/QrGenerator";
+// import QrGenerator from "./Components/QRGeneratorComp/QrGenerator";
+import LightDarkMode from "./Components/LightDarkModeToggle/LightdarkMode";
+import "../src/Components/LightDarkModeToggle/styles.css";
 
 function App() {
   return (
-    <>
+    <div className="light-dark-mode">
       {/* <Accordian /> */}
       {/* <RandomColor /> */}
       {/* <StarRating noOfStars={5} /> */}
       {/* <ImageSlider url="https://picsum.photos/v2/list" limit={"4"} page={"1"} /> */}
       {/* <LoadMore /> */}
       {/* <NavigationMenu menus={menus} /> */}
-      <QrGenerator />
-    </>
+      {/* <QrGenerator /> */}
+      <LightDarkMode />
+    </div>
   );
 }
 
