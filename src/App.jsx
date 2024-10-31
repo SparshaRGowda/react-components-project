@@ -7,7 +7,6 @@
 // import { menus } from "./Components/NavigationMenuComp/data";
 // import QrGenerator from "./Components/QRGeneratorComp/QrGenerator";
 import LightDarkMode from "./Components/LightDarkModeToggle/LightdarkMode";
-import "../src/Components/LightDarkModeToggle/styles.css";
 
 function App() {
   return (
