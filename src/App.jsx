@@ -6,7 +6,8 @@
 // import NavigationMenu from "./Components/NavigationMenuComp/NavigationMenu";
 // import { menus } from "./Components/NavigationMenuComp/data";
 // import QrGenerator from "./Components/QRGeneratorComp/QrGenerator";
-import LightDarkMode from "./Components/LightDarkModeToggle/LightdarkMode";
+// import LightDarkMode from "./Components/LightDarkModeToggle/LightdarkMode";
+import ScrollIndicator from "./Components/ScrollIndicatorComp/ScrollIndicator";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <LoadMore /> */}
       {/* <NavigationMenu menus={menus} /> */}
       {/* <QrGenerator /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
