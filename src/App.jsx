@@ -8,7 +8,9 @@
 // import QrGenerator from "./Components/QRGeneratorComp/QrGenerator";
 // import LightDarkMode from "./Components/LightDarkModeToggle/LightdarkMode";
 // import ScrollIndicator from "./Components/ScrollIndicatorComp/ScrollIndicator";
-import TabComponent from "./Components/TabComp/TabComponent";
+// import TabComponent from "./Components/TabComp/TabComponent";
+// import ModalComponent from "./Components/ModalComp";
+import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <QrGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabComponent />
+      {/* <TabComponent /> */}
+      {/* <ModalComponent /> */}
+      <GithubFinder />
     </div>
   );
 }
