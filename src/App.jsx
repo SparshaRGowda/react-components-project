@@ -10,7 +10,8 @@
 // import ScrollIndicator from "./Components/ScrollIndicatorComp/ScrollIndicator";
 // import TabComponent from "./Components/TabComp/TabComponent";
 // import ModalComponent from "./Components/ModalComp";
-import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
+// import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
+import SearchAutoComplete from "./Components/SearchAutoCompleteComp/SearchAutoComplete";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabComponent /> */}
       {/* <ModalComponent /> */}
-      <GithubFinder />
+      {/* <GithubFinder /> */}
+      <SearchAutoComplete />
     </div>
   );
 }
