@@ -13,7 +13,8 @@
 // import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
 // import SearchAutoComplete from "./Components/SearchAutoCompleteComp/SearchAutoComplete";
 // import TicTacToe from "./Components/TicTacToeComp";
-import UseFetchHookTest from "./Components/UseFetchCustomHook/test";
+// import UseFetchHookTest from "./Components/UseFetchCustomHook/test";
+import UseOnClickOutside from "./Components/useOnClickOutside/test";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <GithubFinder /> */}
       {/* <SearchAutoComplete /> */}
       {/* <TicTacToe /> */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+      <UseOnClickOutside />
     </div>
   );
 }
