@@ -11,7 +11,8 @@
 // import TabComponent from "./Components/TabComp/TabComponent";
 // import ModalComponent from "./Components/ModalComp";
 // import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
-import SearchAutoComplete from "./Components/SearchAutoCompleteComp/SearchAutoComplete";
+// import SearchAutoComplete from "./Components/SearchAutoCompleteComp/SearchAutoComplete";
+import TicTacToe from "./Components/TicTacToeComp";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <TabComponent /> */}
       {/* <ModalComponent /> */}
       {/* <GithubFinder /> */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+      <TicTacToe />
     </div>
   );
 }
