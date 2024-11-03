@@ -17,7 +17,8 @@
 // import UseOnClickOutside from "./Components/useRefHookClickOutside/test";
 // import UseWindowResizeTest from "./Components/useWindowResizeHook/test";
 // import ScrollTopBottom from "./Components/ScrollToTopBottom";
-import ScrollToSection from "./Components/ScrollToParticularSection";
+// import ScrollToSection from "./Components/ScrollToParticularSection";
+import Navbar from "./Components/StickyNavBarComp/StickyNavBar";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <UseOnClickOutside /> */}
       {/* <UseWindowResizeTest /> */}
       {/* <ScrollTopBottom /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      <Navbar />
     </div>
   );
 }
