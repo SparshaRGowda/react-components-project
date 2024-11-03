@@ -12,7 +12,8 @@
 // import ModalComponent from "./Components/ModalComp";
 // import GithubFinder from "./Components/GithubProfileFinderComp/GithubFinder";
 // import SearchAutoComplete from "./Components/SearchAutoCompleteComp/SearchAutoComplete";
-import TicTacToe from "./Components/TicTacToeComp";
+// import TicTacToe from "./Components/TicTacToeComp";
+import UseFetchHookTest from "./Components/UseFetchCustomHook/test";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <ModalComponent /> */}
       {/* <GithubFinder /> */}
       {/* <SearchAutoComplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <UseFetchHookTest />
     </div>
   );
 }
