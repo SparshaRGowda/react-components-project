@@ -18,7 +18,8 @@
 // import UseWindowResizeTest from "./Components/useWindowResizeHook/test";
 // import ScrollTopBottom from "./Components/ScrollToTopBottom";
 // import ScrollToSection from "./Components/ScrollToParticularSection";
-import Navbar from "./Components/StickyNavBarComp/StickyNavBar";
+// import Navbar from "./Components/StickyNavBarComp/StickyNavBar";
+import CreateCategory from "./Components/FilterByCatergory/main";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <UseWindowResizeTest /> */}
       {/* <ScrollTopBottom /> */}
       {/* <ScrollToSection /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <CreateCategory />
     </div>
   );
 }
