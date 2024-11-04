@@ -19,7 +19,8 @@
 // import ScrollTopBottom from "./Components/ScrollToTopBottom";
 // import ScrollToSection from "./Components/ScrollToParticularSection";
 // import Navbar from "./Components/StickyNavBarComp/StickyNavBar";
-import CreateCategory from "./Components/FilterByCatergory/main";
+// import FilterByCreateCategory from "./Components/FilterByCatergory/main";
+import Pagination from "./Components/PaginationComp/Pagination";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <ScrollTopBottom /> */}
       {/* <ScrollToSection /> */}
       {/* <Navbar /> */}
-      <CreateCategory />
+      {/* <FilterByCreateCategory /> */}
+      <Pagination />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { categories, content } from "./data";
 
-const CreateCategory = () => {
+const FilterByCreateCategory = () => {
   const original = [...content];
   const [filter, setFilter] = useState(original);
 
@@ -38,4 +38,4 @@ const CreateCategory = () => {
   );
 };
 
-export default CreateCategory;
+export default FilterByCreateCategory;
